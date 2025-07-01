@@ -1,0 +1,22 @@
+To fix the ESLint errors in AdminDashboard.js, please do the following:
+
+1. Open the file src/components/AdminDashboard.js in your code editor.
+
+2. Find the section around line 6277 that starts with:
+```
+{/* Handle object format with front/back, frontImage/backImage structure */}
+              {!seller.idProof && 
+               !seller.idProofImages && 
+               !seller.documents && 
+```
+
+3. Delete this entire block of code starting from this comment down to the end of this section where the code shows `</Grid>` followed by `)}` (around line 6369).
+
+4. Replace it with a single comment:
+```
+              {/* Additional ID proof display blocks removed to fix ESLint errors */}
+```
+
+5. Save the file and run your application again.
+
+This section was causing errors because it was using the variable 'seller' which was not defined in this context. The code was duplicated from another part of the file where 'seller' was properly defined. 
