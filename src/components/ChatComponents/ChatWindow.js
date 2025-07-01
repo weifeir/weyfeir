@@ -412,7 +412,7 @@ const ChatWindow = ({
   const displayUserDetails = otherUserDetails || localUserDetails;
   
   // Ensure admin email is hidden and displayed as Customer Care
-  const displayName = displayUserDetails?.displayName === "mdziq962#@gmail.com" || displayUserDetails?.displayName === "Customer Care" 
+  const displayName = displayUserDetails?.displayName === "weyfeiradmin@gmail.com" || displayUserDetails?.displayName === "Customer Care" 
     ? "Customer Care" 
     : displayUserDetails?.displayName || 'Chat';
 
@@ -795,4 +795,4 @@ const ChatWindow = ({
   );
 };
 
-export default ChatWindow; 
+export default ChatWindow;
