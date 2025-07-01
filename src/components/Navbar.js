@@ -400,7 +400,7 @@ const Navbar = ({ isAdmin, setIsAdmin, isCustomer, setIsCustomer, isSeller, setI
                 display: 'block'
               }}
             >
-              Waifair Shopping Store
+               Weyfeir
             </Typography>
           </Box>
 
