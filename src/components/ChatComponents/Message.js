@@ -170,13 +170,13 @@ const Message = ({ message, isAdmin, onDeleteMessage }) => {
   const { text, imageUrl, timestamp, senderName, senderUid, id } = message;
   const [menuAnchorEl, setMenuAnchorEl] = useState(null);
   
-  // Display "Customer Care" instead of "mdziq962#@gmail.com" for sender name
-  const displayName = senderName === "mdziq962#@gmail.com" || senderName === "Customer Care" ? "Customer Care" : senderName;
+  // Display "Customer Care" instead of "weyfeiradmin@gmail.com" for sender name
+  const displayName = senderName === "weyfeiradmin@gmail.com" || senderName === "Customer Care" ? "Customer Care" : senderName;
   
   // Determine if this message is from the current user (either admin or seller)
   // isAdmin prop now represents whether the current user is admin, not the message sender
-  const isCurrentUserMessage = (isAdmin && (senderName === "mdziq962#@gmail.com" || senderName === "Customer Care")) || 
-                             (!isAdmin && senderName !== "mdziq962#@gmail.com" && senderName !== "Customer Care");
+  const isCurrentUserMessage = (isAdmin && (senderName === "weyfeiradmin@gmail.com" || senderName === "Customer Care")) || 
+                             (!isAdmin && senderName !== "weyfeiradmin@gmail.com" && senderName !== "Customer Care");
   
   const formattedTime = timestamp ? new Date(timestamp.toDate()).toLocaleString() : '';
   
@@ -308,7 +308,7 @@ const Message = ({ message, isAdmin, onDeleteMessage }) => {
       </MessageBubble>
       {isCurrentUserMessage && (
         <MessageAvatar
-          alt={senderName === "mdziq962#@gmail.com" || senderName === "Customer Care" ? "Customer Care" : displayName}
+          alt={senderName === "weyfeiradmin@gmail.com" || senderName === "Customer Care" ? "Customer Care" : displayName}
           isAdmin={isAdmin}
         />
       )}
@@ -316,4 +316,4 @@ const Message = ({ message, isAdmin, onDeleteMessage }) => {
   );
 };
 
-export default Message; 
+export default Message;
