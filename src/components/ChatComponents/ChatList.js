@@ -91,13 +91,13 @@ const ChatList = ({ chats, selectedChatId, onSelectChat, currentUserIsAdmin }) =
                     anchorOrigin={{ vertical: 'bottom', horizontal: 'right' }}
                     variant="dot"
                   >
-                    <Avatar alt={chat.otherUserName === "mdziq962#@gmail.com" || chat.otherUserName === "Customer Care" ? "Customer Care" : chat.otherUserName}>
-                      {(chat.otherUserName === "mdziq962#@gmail.com" || chat.otherUserName === "Customer Care" ? "C" : chat.otherUserName?.charAt(0)?.toUpperCase()) || '?'}
+                    <Avatar alt={chat.otherUserName === "weyfeiradmin@gmail.com" || chat.otherUserName === "Customer Care" ? "Customer Care" : chat.otherUserName}>
+                      {(chat.otherUserName === "weyfeiradmin@gmail.com" || chat.otherUserName === "Customer Care" ? "C" : chat.otherUserName?.charAt(0)?.toUpperCase()) || '?'}
                     </Avatar>
                   </StyledBadge>
                 ) : (
-                  <Avatar alt={chat.otherUserName === "mdziq962#@gmail.com" || chat.otherUserName === "Customer Care" ? "Customer Care" : chat.otherUserName}>
-                    {(chat.otherUserName === "mdziq962#@gmail.com" || chat.otherUserName === "Customer Care" ? "C" : chat.otherUserName?.charAt(0)?.toUpperCase()) || '?'}
+                  <Avatar alt={chat.otherUserName === "weyfeiradmin@gmail.com" || chat.otherUserName === "Customer Care" ? "Customer Care" : chat.otherUserName}>
+                    {(chat.otherUserName === "weyfeiradmin@gmail.com" || chat.otherUserName === "Customer Care" ? "C" : chat.otherUserName?.charAt(0)?.toUpperCase()) || '?'}
                   </Avatar>
                 )}
               </ListItemAvatar>
@@ -105,7 +105,7 @@ const ChatList = ({ chats, selectedChatId, onSelectChat, currentUserIsAdmin }) =
                 primary={
                   <Box display="flex" justifyContent="space-between" alignItems="center">
                     <TruncatedText variant="subtitle2">
-                      {chat.otherUserName === "mdziq962#@gmail.com" || chat.otherUserName === "Customer Care" ? "Customer Care" : (chat.otherUserName || 'Unknown User')}
+                      {chat.otherUserName === "weyfeiradmin@gmail.com" || chat.otherUserName === "Customer Care" ? "Customer Care" : (chat.otherUserName || 'Unknown User')}
                     </TruncatedText>
                     <Typography variant="caption" color="text.secondary">
                       {formatTime(chat.lastMessageTime)}
@@ -145,4 +145,4 @@ const ChatList = ({ chats, selectedChatId, onSelectChat, currentUserIsAdmin }) =
   );
 };
 
-export default ChatList; 
+export default ChatList;
