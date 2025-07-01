@@ -154,19 +154,19 @@ const Footer = () => {
             <Box sx={{ display: 'flex', alignItems: 'center', mb: 2 }}>
               <LocationOn sx={{ mr: 1, opacity: 0.7 }} />
               <Typography variant="body2" sx={{ opacity: 0.7 }}>
-                12 Shopping Street, New York
+              4 Copley Place, Floor 7, Boston, MA 02116, USA
               </Typography>
             </Box>
             <Box sx={{ display: 'flex', alignItems: 'center', mb: 2 }}>
               <Phone sx={{ mr: 1, opacity: 0.7 }} />
               <Typography variant="body2" sx={{ opacity: 0.7 }}>
-                +1 816 443 9859
+                +1 2894696121
               </Typography>
             </Box>
             <Box sx={{ display: 'flex', alignItems: 'center', mb: 2 }}>
               <Email sx={{ mr: 1, opacity: 0.7 }} />
               <Typography variant="body2" sx={{ opacity: 0.7 }}>
-               shopping348965@gmail.com
+               weyfeir@gmail.com
               </Typography>
             </Box>
             {/* <Box sx={{ display: 'flex', alignItems: 'center' }}>
