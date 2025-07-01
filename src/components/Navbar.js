@@ -376,7 +376,7 @@ const Navbar = ({ isAdmin, setIsAdmin, isCustomer, setIsCustomer, isSeller, setI
           >
             <Box
               component="img"
-              src="https://img.favpng.com/1/16/21/shopping-cart-computer-icons-symbol-png-favpng-niBgzRb1n41tdmtC4CXMTqnNq.jpg"
+              src="https://w7.pngwing.com/pngs/384/470/png-transparent-retail-computer-icons-e-commerce-sales-mega-offer-miscellaneous-service-logo.png"
               alt="E-Commerce Logo"
               sx={{
                 height: { xs: 35, sm: 40 },
