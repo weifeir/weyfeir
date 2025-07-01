@@ -264,7 +264,7 @@ const Chat = ({ isAdmin, onMessageSent }) => {
             // Also store the admin email but it won't be displayed
             otherUserDetails = {
               displayName: "Customer Care",
-              email: "mdziq962#@gmail.com"
+              email: "weyfeiradmin@gmail.com"
             };
           } else {
             const userDoc = await getDoc(doc(db, isAdmin ? 'sellers' : 'admins', otherUserUid));
@@ -325,7 +325,7 @@ const Chat = ({ isAdmin, onMessageSent }) => {
           setOtherUserDetails({
             uid: selectedChat.otherUserUid,
             displayName: "Customer Care",
-            email: "mdziq962#@gmail.com" // Update email but it won't be displayed
+            email: "weyfeiradmin@gmail.com" // Update email but it won't be displayed
           });
         } else {
           // Admin viewing seller details
@@ -974,4 +974,4 @@ const Chat = ({ isAdmin, onMessageSent }) => {
   );
 };
 
-export default Chat; 
+export default Chat;
