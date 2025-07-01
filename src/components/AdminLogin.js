@@ -15,8 +15,8 @@ import { useNavigate } from 'react-router-dom';
 
 
 //login id and password
-const ADMIN_EMAIL = 'mdziq962#@gmail.com';
-const ADMIN_PASSWORD = '@zahidiq1MdX';
+const ADMIN_EMAIL = 'weyfeiradmin@gmail.com';
+const ADMIN_PASSWORD = 'weyfeir@#$123adminpas';
 
 const AdminLogin = ({ setIsAdmin }) => {
   const [email, setEmail] = useState('');
@@ -142,4 +142,4 @@ const AdminLogin = ({ setIsAdmin }) => {
   );
 };
 
-export default AdminLogin; 
+export default AdminLogin;
