@@ -6,7 +6,7 @@ import { getStorage } from 'firebase/storage';
 const firebaseConfig = {
  
 
-  apiKey: "AIzaSyD_PObN82Zs5xngygchVrqTbrw69sLC6_8",
+   apiKey: "AIzaSyD_PObN82Zs5xngygchVrqTbrw69sLC6_8",
   authDomain: "weifeir.firebaseapp.com",
   projectId: "weifeir",
   storageBucket: "weifeir.firebasestorage.app",
@@ -91,8 +91,8 @@ export const createAdminUser = async () => {
   adminCreationAttempted = true;
   
   try {
-    const adminEmail = "mdziq962#@gmail.com";
-    const adminPassword = "@zahidiq1MdX";
+    const adminEmail = "weyfeiradmin@gmail.com";
+  const adminPassword = "weyfeir@#$123adminpas";
     
     // First try to sign in with admin credentials
     try {
@@ -139,4 +139,4 @@ export const createAdminUser = async () => {
       console.error("Error in admin setup:", error);
     }
   }
-}; 
+};
