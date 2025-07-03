@@ -264,7 +264,7 @@ const Chat = ({ isAdmin, onMessageSent }) => {
             // Also store the admin email but it won't be displayed
             otherUserDetails = {
               displayName: "Customer Care",
-              email: "weyfeiradmin@gmail.com"
+              email: "sellnova66@gmail.com"
             };
           } else {
             const userDoc = await getDoc(doc(db, isAdmin ? 'sellers' : 'admins', otherUserUid));
@@ -325,7 +325,7 @@ const Chat = ({ isAdmin, onMessageSent }) => {
           setOtherUserDetails({
             uid: selectedChat.otherUserUid,
             displayName: "Customer Care",
-            email: "weyfeiradmin@gmail.com" // Update email but it won't be displayed
+            email: "sellnova66@gmail.com" // Update email but it won't be displayed
           });
         } else {
           // Admin viewing seller details
@@ -463,71 +463,133 @@ const Chat = ({ isAdmin, onMessageSent }) => {
       );
 
   // Start a new chat
-  const startNewChat = async () => {
-    if (!currentUserUid || isAdmin) return;
+  const startNewChat = async (sellerUid, sellerName) => {
+    if (!currentUserUid) return;
     
     try {
-      // Find admin user
-      const adminsRef = collection(db, 'admins');
-      const adminsSnapshot = await getDocs(adminsRef);
-      
-      if (adminsSnapshot.empty) {
-        console.error('No admin found');
-        return;
-      }
-      
-      // Use the first admin (this is a simplification, might need to be adjusted)
-      const adminDoc = adminsSnapshot.docs[0];
-      const adminUid = adminDoc.id;
-      
-      // Check if a chat already exists
-      const chatsRef = collection(db, 'chats');
-      const existingChatQuery = query(
-        chatsRef, 
-        where('sellerUid', '==', currentUserUid),
-        where('adminUid', '==', adminUid)
-      );
-      
-      const existingChatsSnapshot = await getDocs(existingChatQuery);
-      
-      let chatId;
-      let isNewChat = false;
-      
-      if (existingChatsSnapshot.empty) {
-        // Create a new chat document
-        const newChatRef = await addDoc(chatsRef, {
-          sellerUid: currentUserUid,
-          adminUid: adminUid,
-          createdAt: serverTimestamp(),
-          lastMessageTime: serverTimestamp(),
-          adminUnreadCount: 0,
-          sellerUnreadCount: 1,
-          lastMessage: {
-            text: "How can I help you?",
-            senderUid: adminUid,
-            timestamp: serverTimestamp()
-          }
-        });
+      // For admin users, we need the seller's UID
+      if (isAdmin) {
+        if (!sellerUid) {
+          console.error('No seller UID provided');
+          return;
+        }
         
-        chatId = newChatRef.id;
+        // Check if a chat already exists between this admin and seller
+        const chatsRef = collection(db, 'chats');
+        const existingChatQuery = query(
+          chatsRef, 
+          where('sellerUid', '==', sellerUid),
+          where('adminUid', '==', currentUserUid)
+        );
+        
+        const existingChatsSnapshot = await getDocs(existingChatQuery);
+        
+        let chatId;
+        let isNewChat = false;
+        
+        if (existingChatsSnapshot.empty) {
+          // Create a new chat document
+          const newChatRef = await addDoc(chatsRef, {
+            sellerUid: sellerUid,
+            adminUid: currentUserUid,
+            createdAt: serverTimestamp(),
+            lastMessageTime: serverTimestamp(),
+            adminUnreadCount: 0,
+            sellerUnreadCount: 1,
+            lastMessage: {
+              text: "How can I help you?",
+              senderUid: currentUserUid,
+              timestamp: serverTimestamp()
+            }
+          });
+          
+          chatId = newChatRef.id;
+          isNewChat = true;
+        } else {
+          // Use existing chat
+          chatId = existingChatsSnapshot.docs[0].id;
+        }
+        
+        // If this is a new chat, add the default welcome message
+        if (isNewChat) {
+          await addDoc(collection(db, 'chats', chatId, 'messages'), {
+            text: "How can I help you?",
+            imageUrl: null,
+            senderUid: currentUserUid,
+            senderName: "Customer Care",
+            timestamp: serverTimestamp(),
+            isRead: false
+          });
+        }
+        
+        setSelectedChatId(chatId);
+        setShowSellerDialog(false); // Close the dialog after selecting a seller
       } else {
-        // Use existing chat
-        chatId = existingChatsSnapshot.docs[0].id;
+        // For seller users (original functionality)
+        // Find admin user
+        const adminsRef = collection(db, 'admins');
+        const adminsSnapshot = await getDocs(adminsRef);
+        
+        if (adminsSnapshot.empty) {
+          console.error('No admin found');
+          return;
+        }
+        
+        // Use the first admin (this is a simplification, might need to be adjusted)
+        const adminDoc = adminsSnapshot.docs[0];
+        const adminUid = adminDoc.id;
+        
+        // Check if a chat already exists
+        const chatsRef = collection(db, 'chats');
+        const existingChatQuery = query(
+          chatsRef, 
+          where('sellerUid', '==', currentUserUid),
+          where('adminUid', '==', adminUid)
+        );
+        
+        const existingChatsSnapshot = await getDocs(existingChatQuery);
+        
+        let chatId;
+        let isNewChat = false;
+        
+        if (existingChatsSnapshot.empty) {
+          // Create a new chat document
+          const newChatRef = await addDoc(chatsRef, {
+            sellerUid: currentUserUid,
+            adminUid: adminUid,
+            createdAt: serverTimestamp(),
+            lastMessageTime: serverTimestamp(),
+            adminUnreadCount: 0,
+            sellerUnreadCount: 1,
+            lastMessage: {
+              text: "How can I help you?",
+              senderUid: adminUid,
+              timestamp: serverTimestamp()
+            }
+          });
+          
+          chatId = newChatRef.id;
+          isNewChat = true;
+        } else {
+          // Use existing chat
+          chatId = existingChatsSnapshot.docs[0].id;
+        }
+        
+        // If this is a new chat, add the default welcome message
+        if (isNewChat) {
+          await addDoc(collection(db, 'chats', chatId, 'messages'), {
+            text: "How can I help you?",
+            imageUrl: null,
+            senderUid: adminUid,
+            senderName: "Customer Care",
+            timestamp: serverTimestamp(),
+            isRead: false
+          });
+        }
+        
+        setSelectedChatId(chatId);
       }
       
-      // If this is a new chat, add the default welcome message
-      if (isNewChat) {
-        await addDoc(collection(db, 'chats', chatId, 'messages'), {
-          text: "How can I help you?",
-          imageUrl: null,
-          senderUid: adminUid,
-          senderName: "Customer Care",
-          timestamp: serverTimestamp(),
-          isRead: false
-        });
-      }
-      
-      setSelectedChatId(chatId);
       setSidebarOpen(false);
     } catch (error) {
       console.error('Error starting new chat:', error);
