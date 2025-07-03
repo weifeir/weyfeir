@@ -32,7 +32,7 @@ import CloudUploadIcon from '@mui/icons-material/CloudUpload';
 import CheckCircleOutlineIcon from '@mui/icons-material/CheckCircleOutline';
 import Footer from './Footer';
 
-const SELLER_SECRET_KEY = "96274";
+const SELLER_SECRET_KEY = "74682";
 
 const SellerRegister = () => {
   const [email, setEmail] = useState('');
