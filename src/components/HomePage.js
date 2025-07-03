@@ -1227,7 +1227,7 @@ const HomePage = ({ isAuthenticated, searchTerm }) => {
             {/* Banner 1 - Valentine's Sale */}
             <Box 
               component="img"
-              src="https://esellerstorevip.biz/public/uploads/all/5AmdWNHfcLOMTKIfbWAoNEFqRjoRSDIR78JM4Vqk.png"
+              src="https://t4.ftcdn.net/jpg/04/41/14/65/360_F_441146553_haUBrTpsJJ22bEbsMlgkNosGuWGwbV0t.jpg"
               alt="Valentine's Big Sale"
               sx={{ 
                 width: { xs: '100%', md: '33.33%' }, 
@@ -1243,7 +1243,7 @@ const HomePage = ({ isAuthenticated, searchTerm }) => {
             {/* Banner 2 - Flash Sale */}
             <Box 
               component="img"
-              src="https://esellerstorevip.biz/public/uploads/all/A4EsJbP8jJXmlQmdlCwPG7gGhZ6UAjW7sfEnAbzb.png"
+              src="https://mir-s3-cdn-cf.behance.net/project_modules/fs/3ce709113389695.60269c221352f.jpg"
               alt="Flash Sale"
               sx={{ 
                 width: { xs: '100%', md: '33.33%' }, 
@@ -1259,7 +1259,7 @@ const HomePage = ({ isAuthenticated, searchTerm }) => {
             {/* Banner 3 - 15% Off Everything */}
             <Box 
               component="img"
-              src="https://esellerstorevip.biz/public/uploads/all/RyNqpjRAQov3NhNSiB885zdRXKISuzOd5I7i285p.png"
+              src="https://img.freepik.com/premium-vector/ramadan-kareem-sale-banner-template_234845-758.jpg"
               alt="15% Off Everything"
               sx={{ 
                 width: { xs: '100%', md: '33.33%' }, 
@@ -1882,7 +1882,7 @@ const HomePage = ({ isAuthenticated, searchTerm }) => {
                 marginBottom={2}
                   component="img"
                   height="180"
-                  image="https://esellerstorevip.biz/public/uploads/all/XscwCkojrDJfzIYafWutWtKSMTzG6zV5wwSyL3VA.jpg"
+                  image="https://babyplanet.pk/cdn/shop/files/BLL-T-907_c49b014b-c03a-4bf6-9c64-ea7c506c6d50.jpg?v=1716804172g"
                   alt=" KRIDDO Kids Tricycles"
                 />
                 <CardContent sx={{ p: 1, pt: 1.5 }}>
@@ -1914,7 +1914,7 @@ const HomePage = ({ isAuthenticated, searchTerm }) => {
                 <CardMedia
                   component="img"
                   height="180"
-                  image="https://esellerstorevip.biz/public/uploads/all/IiOPdiIusVjs07y5o0s5dJrDhsdUr6jTGcwbEgDp.png"
+                  image="https://shop.autelrobotics.com/cdn/shop/articles/EVO_in_Flight_1.jpg?v=1625008247"
                   alt=" Autel EVO II Dual"
                 />
                 <CardContent sx={{ p: 1, pt: 1.5 }}>
@@ -1945,7 +1945,7 @@ const HomePage = ({ isAuthenticated, searchTerm }) => {
                 <CardMedia
                   component="img"
                   height="180"
-                  image="https://esellerstorevip.biz/public/uploads/all/cIsGV4vl5mhgp9EDqXo0zno8SDsjy4EXWxpIDGA0.jpg"
+                  image="https://newparadisestore.com/cdn/shop/files/aveeno-baby-daily-care-hair-body-wash-250ml_1024x1024.jpg?v=1716635582"
                   alt="Aveeno Baby Daily Moisture Gentle Bath Wash & Shampoo"
                 />
                 <CardContent sx={{ p: 1, pt: 1.5 }}>
@@ -1977,7 +1977,7 @@ const HomePage = ({ isAuthenticated, searchTerm }) => {
                 <CardMedia
                   component="img"
                   height="180"
-                  image="https://esellerstorevip.biz/public/uploads/all/V9DKgUbuTB6sNdxgKiNJbEu5G9iYU4jWPhVCL2mZ.png"
+                  image="https://tec-way.ch/wp-content/uploads/2024/10/rouge-brio-600x600.png"
                   alt="Hot sale "
                 />
                 <CardContent sx={{ p: 1, pt: 1.5 }}>
@@ -2008,7 +2008,7 @@ const HomePage = ({ isAuthenticated, searchTerm }) => {
                 <CardMedia
                   component="img"
                   height="180"
-                  image="https://esellerstorevip.biz/public/uploads/all/89Y6d0M6hE5uCdxcqVUzAoGqzNu5rIUjyT1y1RDQ.jpg"
+                  image="https://m.media-amazon.com/images/I/41ffbjxyYmL.jpg"
                   alt=" ACEGER Girls Bike "
                 />
                 <CardContent sx={{ p: 1, pt: 1.5 }}>
@@ -2040,7 +2040,7 @@ const HomePage = ({ isAuthenticated, searchTerm }) => {
                 <CardMedia
                   component="img"
                   height="180"
-                  image="https://esellerstorevip.biz/public/uploads/all/IiOPdiIusVjs07y5o0s5dJrDhsdUr6jTGcwbEgDp.png"
+                  image="https://shop.autelrobotics.com/cdn/shop/files/3_47eaa25b-518c-4471-bba6-c2eaea700060_1100x.jpg?v=1695867554"
                   alt=" Autel EVO II Dual"
                 />
                 <CardContent sx={{ p: 1, pt: 1.5 }}>
@@ -2071,7 +2071,7 @@ const HomePage = ({ isAuthenticated, searchTerm }) => {
                 <CardMedia
                   component="img"
                   height="180"
-                  image="https://esellerstorevip.biz/public/uploads/all/mCy6LeNXpWdfLIbIptTPQ9erPTpO3kDZerHHA3bE.png"
+                  image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRut6Gt3kdBwZosJmLXnPkk1y7TN8GP0S3b4g&s"
                   alt=" FIMI X8 MINI PRO Fly Combo"
                 />
                 <CardContent sx={{ p: 1, pt: 1.5 }}>
@@ -2103,7 +2103,7 @@ const HomePage = ({ isAuthenticated, searchTerm }) => {
                 <CardMedia
                   component="img"
                   height="180"
-                  image="https://esellerstorevip.biz/public/uploads/all/jnFbuxr0w3zKeO3wo6pG61cfRdAqsQcQDOffJKFY.png"
+                  image="https://m.media-amazon.com/images/I/61psdJRuT3L.jpg"
                   alt=" Stilts walker"
                 />
                 <CardContent sx={{ p: 1, pt: 1.5 }}>
@@ -2134,7 +2134,7 @@ const HomePage = ({ isAuthenticated, searchTerm }) => {
                 <CardMedia
                   component="img"
                   height="180"
-                  image="https://esellerstorevip.biz/public/uploads/all/QfomT9J5ZrOKdxWpbnuZHYB2k9rZYLBBIzERxzHe.png"
+                  image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtg9-b1DA5kKcSwneN2f60JFxXIVqLB2gNWg&s"
                   alt="Luxury Modern Full Body Robot AI"
                 />
                 <CardContent sx={{ p: 1, pt: 1.5 }}>
@@ -2166,7 +2166,7 @@ const HomePage = ({ isAuthenticated, searchTerm }) => {
                 <CardMedia
                   component="img"
                   height="180"
-                  image="https://esellerstorevip.biz/public/uploads/all/b9qK8YB49rgV9s6yv6Zw0Iws6T1o6nzstyHwNpUU.png"
+                  image="https://www.bhg.com/thmb/NDkdvXT8Ko6TAz0TpmpSkKw-Ivw=/4000x0/filters:no_upscale():strip_icc()/bhg-june-couches-test-pb-turner-square-arm-leather-sofa-abby-mercer-002-4269346460a54b57957d848b2a444982.jpeg"
                   alt="Durable leather sofa"
                 />
                 <CardContent sx={{ p: 1, pt: 1.5 }}>
@@ -2197,7 +2197,7 @@ const HomePage = ({ isAuthenticated, searchTerm }) => {
                 <CardMedia
                   component="img"
                   height="180"
-                  image="https://esellerstorevip.biz/public/uploads/all/w7I25l1L19LGsPwt6N3pn7bS3o6g2gf3xyB3izuU.png"
+                  image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkRl8aKPMT-BDy74ieKF76CVzbbREct4_--g&s"
                   alt="  Bjflamingo Italian carbon steel "
                 />
                 <CardContent sx={{ p: 1, pt: 1.5 }}>
@@ -2229,7 +2229,7 @@ const HomePage = ({ isAuthenticated, searchTerm }) => {
                 <CardMedia
                   component="img"
                   height="180"
-                  image="https://esellerstorevip.biz/public/uploads/all/iekhwkf7DB5tkn9aZgCr9eLjZhsMKTFbfETpx7wV.png"
+                  image="https://oxygendigitalshop.com/media/cache/1500x0/mageplaza/post/s/2/s22_ultra_kv_3_pc_1673324383.webp"
                   alt=" 2022 Smartphone for Samsung "
                 />
                 <CardContent sx={{ p: 1, pt: 1.5 }}>
@@ -2433,7 +2433,7 @@ const HomePage = ({ isAuthenticated, searchTerm }) => {
                 <CardMedia
                   component="img"
                   height="180"
-                  image="https://esellerstorevip.biz/public/uploads/all/MP530jSd9kGEVeULAMkcKEnxKndZvvsnvxbluiMp.jpg"
+                  image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHpwyBFo6ZgOfSvqgvJkPRuAZozPjqHtrh-g&s"
                   alt=" STARBUCKS KOREA"
                 />
                 <CardContent sx={{ p: 1, pt: 1.5 }}>
@@ -2800,7 +2800,7 @@ const HomePage = ({ isAuthenticated, searchTerm }) => {
                 <CardMedia
                   component="img"
                   height="180"
-                  image="https://esellerstorevip.biz/public/uploads/all/uYmG98Yju1Q5tDgMw1c1v34AqcVX412wktr0hi4u.png"
+                  image="https://img.drz.lazcdn.com/static/pk/p/ab0d15810c5fd7de384ed9c9eab18abe.jpg_720x720q80.jpg"
                   alt="10 x Self Adhesive Wall Sticky Hooks"
                 />
                 <CardContent sx={{ p: 1, pt: 1.5 }}>
@@ -2831,7 +2831,7 @@ const HomePage = ({ isAuthenticated, searchTerm }) => {
                 <CardMedia
                   component="img"
                   height="180"
-                  image="https://esellerstorevip.biz/public/uploads/all/dQ8qdsPtUk1pGof9bUAvTlCNmXagxEMLPvn0mKni.jpg"
+                  image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwC5Gi_WkP_29OcF8roEgNSQtBFXZ2lb7c1Q&s"
                   alt="LECDER i37 Kids Headphones"
                 />
                 <CardContent sx={{ p: 1, pt: 1.5 }}>
@@ -2863,7 +2863,7 @@ const HomePage = ({ isAuthenticated, searchTerm }) => {
                 <CardMedia
                   component="img"
                   height="180"
-                  image="https://esellerstorevip.biz/public/uploads/all/m9OqDahfRQjxalyH9Qe0bPpDAAvilKckmFZ6a48t.jpg"
+                  image="https://m.media-amazon.com/images/I/71XlpJxa83L._UF1000,1000_QL80_.jpg"
                   alt=" LIDYUK End Table"
                 />
                 <CardContent sx={{ p: 1, pt: 1.5 }}>
@@ -2895,7 +2895,7 @@ const HomePage = ({ isAuthenticated, searchTerm }) => {
                 <CardMedia
                   component="img"
                   height="180"
-                  image="https://esellerstorevip.biz/public/uploads/all/Oy4RclxTxvPA3PupQSxFReip50FWe9ekfffBX4mm.png"
+                  image="https://alayajunior.com/cdn/shop/files/pink_2bb29375-7f21-447c-af35-0f060e2736a4.jpg?v=1701436164"
                   alt="Baby Diaper Bag"
                 />
                 <CardContent sx={{ p: 1, pt: 1.5 }}>
@@ -2927,7 +2927,7 @@ const HomePage = ({ isAuthenticated, searchTerm }) => {
                 <CardMedia
                   component="img"
                   height="180"
-                  image="https://esellerstorevip.biz/public/uploads/all/zr01LXrc3zhI58EQjGcqUASLxafZoUW2fWJ0sQFN.jpg"
+                  image="https://images-eu.ssl-images-amazon.com/images/I/614ObayapaL._AC_UL600_SR600,600_.jpg"
                   alt="Ankis Black Brown White Biege Gold Women's Flat Sandals"
                 />
                 <CardContent sx={{ p: 1, pt: 1.5 }}>
@@ -2958,7 +2958,7 @@ const HomePage = ({ isAuthenticated, searchTerm }) => {
                 <CardMedia
                   component="img"
                   height="180"
-                  image="https://esellerstorevip.biz/public/uploads/all/iN7tgADvcLfT6hNUt09GFsqPp3YlYv8R7duQ1i9f.png"
+                  image="https://image.made-in-china.com/2f0j00wkPVKDvtEoYZ/Large-Metal-Stairs-Doors-Hallways-Wall-Wide-Protection-Pets-Retractable-Safety-Baby-Gate.webp"
                   alt="Retractable Baby Safety Gate"
                 />
                 <CardContent sx={{ p: 1, pt: 1.5 }}>
@@ -2989,7 +2989,7 @@ const HomePage = ({ isAuthenticated, searchTerm }) => {
                 <CardMedia
                   component="img"
                   height="180"
-                  image="https://esellerstorevip.biz/public/uploads/all/MiRA4ozfRxfRl5AELRbBqjcNkeukq0VUaYjoVi0T.jpg"
+                  image="https://m.media-amazon.com/images/I/51zPDh+y6-L._AC_SL1500_.jpg"
                   alt="OK MOKKOM Automatic Nut Milk Maker"
                 />
                 <CardContent sx={{ p: 1, pt: 1.5 }}>
@@ -3021,7 +3021,7 @@ const HomePage = ({ isAuthenticated, searchTerm }) => {
                 <CardMedia
                   component="img"
                   height="180"
-                  image="https://esellerstorevip.biz/public/uploads/all/GmGFPFPXiwNAn81B5lqEzm81eBOg3PTaIbzXYekD.jpg"
+                  image="https://static-01.daraz.pk/p/ad0c4564dc632473885bfcb0755c9b76.jpg"
                   alt="Portable Blender"
                 />
                 <CardContent sx={{ p: 1, pt: 1.5 }}>
@@ -3053,7 +3053,7 @@ const HomePage = ({ isAuthenticated, searchTerm }) => {
                 <CardMedia
                   component="img"
                   height="180"
-                  image="https://esellerstorevip.biz/public/uploads/all/eSTBQAAvJW6t7btCnTDHx7WEotIhOyYtUWG33GG3.png"
+                  image="https://images-cdn.ubuy.com.sa/660a2301f604eb59ba5450d0-pirecart-14-panel-foldable-baby-playpen.jpg"
                   alt="Pirecart 14-Panel Foldable Baby Playpen"
                 />
                 <CardContent sx={{ p: 1, pt: 1.5 }}>
@@ -3085,7 +3085,7 @@ const HomePage = ({ isAuthenticated, searchTerm }) => {
                 <CardMedia
                   component="img"
                   height="180"
-                  image="https://esellerstorevip.biz/public/uploads/all/wT9wdlYppRKhRlQ6BURlbLraVzfvCHsOVBNERbtN.jpg"
+                  image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTu0uQuovksBaflfplO-4GVvCRrK2cVD3eF7A&s"
                   alt="Gardening Tools"
                 />
                 <CardContent sx={{ p: 1, pt: 1.5 }}>
@@ -3237,7 +3237,7 @@ const HomePage = ({ isAuthenticated, searchTerm }) => {
             {/* Banner 1 - Valentine's Sale */}
             <Box 
               component="img"
-              src="https://esellerstorevip.biz/public/uploads/all/5AmdWNHfcLOMTKIfbWAoNEFqRjoRSDIR78JM4Vqk.png"
+              src="https://t4.ftcdn.net/jpg/04/41/14/65/360_F_441146553_haUBrTpsJJ22bEbsMlgkNosGuWGwbV0t.jpg"
               alt="Valentine's Big Sale"
               sx={{ 
                 width: { xs: '100%', md: '33.33%' }, 
@@ -3253,7 +3253,7 @@ const HomePage = ({ isAuthenticated, searchTerm }) => {
             {/* Banner 2 - Flash Sale */}
             <Box 
               component="img"
-              src="https://esellerstorevip.biz/public/uploads/all/A4EsJbP8jJXmlQmdlCwPG7gGhZ6UAjW7sfEnAbzb.png"
+              src="https://mir-s3-cdn-cf.behance.net/project_modules/fs/3ce709113389695.60269c221352f.jpg"
               alt="Flash Sale"
               sx={{ 
                 width: { xs: '100%', md: '33.33%' }, 
@@ -3269,7 +3269,7 @@ const HomePage = ({ isAuthenticated, searchTerm }) => {
             {/* Banner 3 - 15% Off Everything */}
             <Box 
               component="img"
-              src="https://esellerstorevip.biz/public/uploads/all/RyNqpjRAQov3NhNSiB885zdRXKISuzOd5I7i285p.png"
+              src="https://img.freepik.com/premium-vector/ramadan-kareem-sale-banner-template_234845-758.jpg"
               alt="15% Off Everything"
               sx={{ 
                 width: { xs: '100%', md: '33.33%' }, 
@@ -3316,7 +3316,7 @@ const HomePage = ({ isAuthenticated, searchTerm }) => {
                 <CardMedia
                   component="img"
                   height="180"
-                  image="https://esellerstorevip.biz/public/uploads/all/A8FMEWioToNQVzZQI2zTf2nVmRoNAhXyHFXeeWSL.png"
+                  image="https://media-photos.depop.com/b0/851846/1091744571_ff4c6995d9ca42df986b3c2ffd29ba75/P0.jpg"
                   alt="River Island Womens Midi Dress"
                 />
                 <CardContent sx={{ p: 1, pt: 1.5 }}>
@@ -3347,7 +3347,7 @@ const HomePage = ({ isAuthenticated, searchTerm }) => {
                 <CardMedia
                   component="img"
                   height="180"
-                  image="https://esellerstorevip.biz/public/uploads/all/D7FFpqYjZnUGoLEOtXTuEKBdiKWCXAS5RQwgioce.png"
+                  image="https://www.moshulu.co.uk/images/ladies-fluffy-sheepskin-mule-slipper-p2899-134860_image.jpg"
                   alt="Ladies Mule Slippers"
                 />
                 <CardContent sx={{ p: 1, pt: 1.5 }}>
@@ -3378,7 +3378,7 @@ const HomePage = ({ isAuthenticated, searchTerm }) => {
                 <CardMedia
                   component="img"
                   height="180"
-                  image="https://esellerstorevip.biz/public/uploads/all/jzjKy6HcTBWBlY1wLwQ2nXmXDJGiWycqnR0gZFan.webp"
+                  image="https://m.media-amazon.com/images/I/41Pn0i3N5-L._SL500_.jpg"
                   alt="Electric Bottle Brush"
                 />
                 <CardContent sx={{ p: 1, pt: 1.5 }}>
@@ -3410,7 +3410,7 @@ const HomePage = ({ isAuthenticated, searchTerm }) => {
                 <CardMedia
                   component="img"
                   height="180"
-                  image="https://esellerstorevip.biz/public/uploads/all/EkA7tvkyAXauHA26t5AovUEKAihm1A9qnVrBBtZL.jpg"
+                  image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLeud2MYjTMJe2g5OlUpw9TexrArvt8m36Xw&s"
                   alt="Travistar Crossbody Bags"
                 />
                 <CardContent sx={{ p: 1, pt: 1.5 }}>
@@ -3442,7 +3442,7 @@ const HomePage = ({ isAuthenticated, searchTerm }) => {
                 <CardMedia
                   component="img"
                   height="180"
-                  image="https://esellerstorevip.biz/public/uploads/all/pVQiuZItrVI8huHLgc1M8FSVkjaIWtp07ec5EIF8.jpg"
+                  image="https://m.media-amazon.com/images/I/71u+Si9K7AL._UY1000_.jpg"
                   alt="JD.GLOBAL Essentials Women's Classic-Fit Short-Sleeve V-Neck T-Shirt"
                 />
                 <CardContent sx={{ p: 1, pt: 1.5 }}>
@@ -3473,7 +3473,7 @@ const HomePage = ({ isAuthenticated, searchTerm }) => {
                 <CardMedia
                   component="img"
                   height="180"
-                  image="https://esellerstorevip.biz/public/uploads/all/V8mtLYU7ZdNrCvS3WWsETk3MluA6YU5IWDk9K0ez.jpg"
+                  image="https://cdn.media.amplience.net/i/drmartens/24622211.80.jpg?$medium$"
                   alt="Dr. Martens Women's Blaire Brando Fisherman Sandal"
                 />
                 <CardContent sx={{ p: 1, pt: 1.5 }}>
@@ -3503,7 +3503,7 @@ const HomePage = ({ isAuthenticated, searchTerm }) => {
                 <CardMedia
                   component="img"
                   height="180"
-                  image="https://esellerstorevip.biz/public/uploads/all/fWMdjSbxmLl51bIkKHpVJ1a9qNLQQmtxj29QhMTU.jpg"
+                  image="https://images-eu.ssl-images-amazon.com/images/I/614ObayapaL._AC_UL600_SR600,600_.jpg"
                   alt="Ankis Black Brown White Biege Gold Women's Flat Sandals Comfortable Women's Slide Sandals Fashion Flat Sandals for Women Summer"
                 />
                 <CardContent sx={{ p: 1, pt: 1.5 }}>
@@ -3535,7 +3535,7 @@ const HomePage = ({ isAuthenticated, searchTerm }) => {
                 <CardMedia
                   component="img"
                   height="180"
-                  image="https://esellerstorevip.biz/public/uploads/all/jjj3YNrWJkl08UND6llRZYzou66N8yVG9vbkCtJh.jpg"
+                  image="https://m.media-amazon.com/images/S/aplus-media-library-service-media/ee3f0c62-4277-4d88-9462-14a9a051e74d.__CR0,0,800,600_PT0_SX600_V1___.jpg"
                   alt="BTFBM Women's 2024 Summer Casual Beach Dresses Crew Neck Short Sleeve Wrap Party Club Mini Ruched Bodycon T Shirt Dress"
                 />
                 <CardContent sx={{ p: 1, pt: 1.5 }}>
@@ -3568,7 +3568,7 @@ $48.75 /Pc
                 <CardMedia
                   component="img"
                   height="180"
-                  image="https://esellerstorevip.biz/public/uploads/all/WDlj1E7t7HgmFmkJYDLzkmLRdwNlxQWO3SvXr9pG.jpg"
+                  image="https://i5.walmartimages.com/seo/5-Pack-Women-s-Short-Sleeve-V-Neck-Activewear-T-Shirt-Dry-Fit-Moisture-Wicking-Perfomance-Yoga-Top-Available-in-Plus-Size_467e8474-57c5-4976-aa7c-0a5f349d782d.044e15b66001ae115b3058051921d8d5.jpeg"
                   alt="JD.GLOBAL Essentials Women's Classic-Fit Short-Sleeve V-Neck T-Shirt"
                 />
                 <CardContent sx={{ p: 1, pt: 1.5 }}>
@@ -3600,7 +3600,7 @@ $48.75 /Pc
                 <CardMedia
                   component="img"
                   height="180"
-                  image="https://esellerstorevip.biz/public/uploads/all/X0p9OLlds54tXv7xCuDmuBU2CKR67M7P73HcQXcv.jpg"
+                  image="https://www.realsimple.com/thmb/gqKTece1AiXK5ilfHKhJj9qquHE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/amazon-essentials-womens-classic-fit-short-sleeve-v-neck-t-shirt--b6bf66a618a14d06b9f20e294db3ac7d.jpg"
                   alt="JD.GLOBAL Essentials Women's Classic-Fit Short-Sleeve V-Neck T-Shirt"
                 />
                 <CardContent sx={{ p: 1, pt: 1.5 }}>
@@ -3776,7 +3776,7 @@ $48.75 /Pc
                 <CardMedia
                   component="img"
                   height="180"
-                  image="https://esellerstorevip.biz/public/uploads/all/DGWGWhFKA5lcD5OwqypP3iAoDU0JDw56i8ca9uA3.jpg"
+                  image="https://m.media-amazon.com/images/I/91ITAognfPL.jpg"
                   alt="Scarleton Purses for Women Large Hobo Bags Washed Vegan Leather Shoulder Bag Satchel Tote Top Handle Handbags"
                 />
                 <CardContent sx={{ p: 1, pt: 1.5 }}>
@@ -3808,7 +3808,7 @@ $48.75 /Pc
                 <CardMedia
                   component="img"
                   height="180"
-                  image="https://esellerstorevip.biz/public/uploads/all/xJnMiRSKkWgqlNp7Z7k2vb0iD49h7aBHN4o07Ttn.png"
+                  image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT73I96GnseUECY5ngY2Uil9xPBZcKSz7iS3g&s"
                   alt="Hair Dryer, NEXPURE 1800W Professional Ionic Hairdryer for Hair Care, Powerful Hot/Cool Wind Blow Dryer with Diffuser, Nozzle, ETL, UL and ALCI Safety Plug (Dark Grey)"
                 />
                 <CardContent sx={{ p: 1, pt: 1.5 }}>
@@ -3839,7 +3839,7 @@ $48.75 /Pc
                 <CardMedia
                   component="img"
                   height="180"
-                  image="https://esellerstorevip.biz/public/uploads/all/2XWn8cTg7FITvzISyNtVeT2pNYYyHIHFCGVa6XZu.png"
+                  image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsdttq8Jl14zqbdAr3lFDGAqJURTaeHRYShw&s"
                   alt="Parfums de Marly Kalan by Parfums de Marly, 2.5 oz EDP Spray for Men"
                 />
                 <CardContent sx={{ p: 1, pt: 1.5 }}>
@@ -3871,7 +3871,7 @@ $48.75 /Pc
                 <CardMedia
                   component="img"
                   height="180"
-                  image="https://esellerstorevip.biz/public/uploads/all/9PTQ8QfRS3fT4jPa150YSPxg0XS9RpaIzFckrZFb.png"
+                  image="https://perfumeoasis.co.uk/cdn/shop/files/godolphin75.png?v=1710529768"
                   alt="Parfums De Marly Godolphin Eau De Toilette Spray, Cologne for Men, 4.2 Oz"
                 />
                 <CardContent sx={{ p: 1, pt: 1.5 }}>
@@ -3903,7 +3903,7 @@ $48.75 /Pc
                 <CardMedia
                   component="img"
                   height="180"
-                  image="https://esellerstorevip.biz/public/uploads/all/kHQMeVMrTEcpWp7ctWJgQ4qB6NgBdkBzpfw1VUmf.png"
+                  image="https://img.drz.lazcdn.com/static/pk/p/8807396c807e9606a19388c848f99ad2.jpg_720x720q80.jpg_.webp"
                   alt="Hinzonek 5 in 1 Hair Blower Brush Hairdryer-Detachable and Interchangeable Hot Tools Blow Dryer Brush, Negative Ion Technology Heated Curling Brush for Straightening, Curling, Dry Combing"
                 />
                 <CardContent sx={{ p: 1, pt: 1.5 }}>
@@ -3954,7 +3954,7 @@ Hinzonek 5 in 1 Hair Blower Brush Hairdryer-Detachable and Interchangeable Hot T
               </Card>
 
               {/* Product 7 */}
-              <Card sx={{ 
+              {/* <Card sx={{ 
                 minWidth: { xs: 'calc(100% / 2.2)', sm: 'calc(100% / 3.2)', md: 'calc(100% / 5.2)' },
                 maxWidth: { xs: 'calc(100% / 2.2)', sm: 'calc(100% / 3.2)', md: 'calc(100% / 5.2)' },
                 cursor: 'pointer',
@@ -3983,7 +3983,7 @@ Hinzonek 5 in 1 Hair Blower Brush Hairdryer-Detachable and Interchangeable Hot T
                   <Typography variant="body2" sx={{ fontSize: '0.8rem', height: '40px', overflow: 'hidden' }}>
                   Luxury Modern Full Body Robot AI Smart SL Track deluxe massage cahir Zero Gravity Shiatsu AI 4D Massage Chair for Home Office                  </Typography>
                 </CardContent>
-              </Card>
+              </Card> */}
 
               {/* Product 8 */}
               {/* <Card sx={{ 
@@ -4236,7 +4236,7 @@ Hinzonek 5 in 1 Hair Blower Brush Hairdryer-Detachable and Interchangeable Hot T
                 <CardMedia
                   component="img"
                   height="180"
-                  image="https://esellerstorevip.biz/public/uploads/all/vqTZeH9sO7xp0g8NrMO3GAEiA0PMM8PAchsWVD8x.png"
+                  image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw_x5SZcMb0JY4tIEgJTZIOTxmECaEUG9sZg&s"
                   alt="Fashion Pure"
                 />
                 <CardContent sx={{ p: 1, pt: 1.5 }}>
@@ -4267,7 +4267,7 @@ Hinzonek 5 in 1 Hair Blower Brush Hairdryer-Detachable and Interchangeable Hot T
                 <CardMedia
                   component="img"
                   height="180"
-                  image="https://esellerstorevip.biz/public/uploads/all/zSLh3SJv4XBRw098Fy8yTFCwKA5ucvlWoxtIkdn6.png"
+                  image="https://s.alicdn.com/@sc04/kf/Hb05a186cf8604e92b5cc72a200b6344eg.jpg_350x350.jpg"
                   alt="5D hard yellow solid gold jewelry manufacturer fashion 61.38g 22inch pure 24k gold chain necklace jewelry for man"
                 />
                 <CardContent sx={{ p: 1, pt: 1.5 }}>
@@ -4298,7 +4298,7 @@ Hinzonek 5 in 1 Hair Blower Brush Hairdryer-Detachable and Interchangeable Hot T
                 <CardMedia
                   component="img"
                   height="180"
-                  image="https://esellerstorevip.biz/public/uploads/all/B5L2a6oRYDvBICjTc0ffAjAkFS0CzBwIxlEDoPGf.png"
+                  image="https://s.alicdn.com/@sc04/kf/H127ab7bd18c0439da24f96021b464133o.jpg_300x300.jpg"
                   alt="24k gold chain necklace jewelry for man"
                 />
                 <CardContent sx={{ p: 1, pt: 1.5 }}>
@@ -4331,7 +4331,7 @@ Hinzonek 5 in 1 Hair Blower Brush Hairdryer-Detachable and Interchangeable Hot T
                 <CardMedia
                   component="img"
                   height="180"
-                  image="https://esellerstorevip.biz/public/uploads/all/pM1U82gYhp1n04hdhIuIwkK4yvcT9WLzYmInKhkm.png"
+                  image="https://s.alicdn.com/@sc04/kf/Abc937ef1a63e499293fbd26bd0e7f3aen.jpg"
                   alt="solid gold jewelry manufacturer fashion"
                 />
                 <CardContent sx={{ p: 1, pt: 1.5 }}>
@@ -4363,7 +4363,7 @@ Hinzonek 5 in 1 Hair Blower Brush Hairdryer-Detachable and Interchangeable Hot T
                 <CardMedia
                   component="img"
                   height="180"
-                  image="https://esellerstorevip.biz/public/uploads/all/j9KghSMk9eBlLSmW8N4eGH3u8DbwmOCJwECREvC3.jpg"
+                  image="https://m.media-amazon.com/images/I/81zSh9pyYhL._UF1000,1000_QL80_.jpg"
                   alt="Smart Watch for Men Women(Answer/Make Call),1.83" 
                 />
                 <CardContent sx={{ p: 1, pt: 1.5 }}>
@@ -4395,7 +4395,7 @@ $62.49 /Pc
                 <CardMedia
                   component="img"
                   height="180"
-                  image="https://esellerstorevip.biz/public/uploads/all/kk785Pkne8xuohU06E00Y6k6wS0nnKYIpCl4pvvF.jpg"
+                  image="https://m.media-amazon.com/images/I/71UwjCXkvgL._AC_SL1500_.jpg"
                   alt="Michael Kors Crossbody"
                 />
                 <CardContent sx={{ p: 1, pt: 1.5 }}>
@@ -4413,7 +4413,7 @@ $62.49 /Pc
               </Card>
 
               {/* Product 7 */}
-              <Card sx={{ 
+              {/* <Card sx={{ 
                 minWidth: { xs: 'calc(100% / 2.2)', sm: 'calc(100% / 3.2)', md: 'calc(100% / 5.2)' },
                 maxWidth: { xs: 'calc(100% / 2.2)', sm: 'calc(100% / 3.2)', md: 'calc(100% / 5.2)' },
                 cursor: 'pointer',
@@ -4443,7 +4443,7 @@ $157.50 /pc
                   <Typography variant="body2" sx={{ fontSize: '0.8rem', height: '40px', overflow: 'hidden' }}>
                   Arthesdam Jewellery 916 Gold Starry Solitaire Pendant                  </Typography>
                 </CardContent>
-              </Card>
+              </Card> */}
 
               {/* Product 8 */}
               {/* <Card sx={{ 
@@ -4697,7 +4697,7 @@ $157.50 /pc
                 <CardMedia
                   component="img"
                   height="180"
-                  image="https://esellerstorevip.biz/public/uploads/all/PWY0HkCSooMTupcCfVtmbetCP8zJCimmWlTRlIwq.png"
+                  image="https://m.media-amazon.com/images/I/81RZapYzF0L._AC_UF350,350_QL80_.jpg"
                   alt="Canon EOS 2000D Rebel T7 DSLR Camera with 18-55mm III Lens With 25 Piece Bundle"
                 />
                 <CardContent sx={{ p: 1, pt: 1.5 }}>
@@ -4728,7 +4728,7 @@ $157.50 /pc
                 <CardMedia
                   component="img"
                   height="180"
-                  image="https://esellerstorevip.biz/public/uploads/all/poyVyES6igjdiDWe28keHRsE4eQrSimbT79D2bui.jpg"
+                  image="https://m.media-amazon.com/images/I/71tXufnu2XL._UF1000,1000_QL80_.jpg"
                   alt="1 Pair Boardless Skateboard, Double Wheel Roller With Thicked Pendal And Durable PU Wheel Drift Anti-Slip Board, Suitable For Beginners"
                 />
                 <CardContent sx={{ p: 1, pt: 1.5 }}>
@@ -4759,7 +4759,7 @@ $157.50 /pc
                 <CardMedia
                   component="img"
                   height="180"
-                  image="https://esellerstorevip.biz/public/uploads/all/DICzj6lIZleoH7PthNsOrs3L3UkJZO9x3vvcyVp8.png"
+                  image="https://m.media-amazon.com/images/I/61sx0sjSxSL._UF1000,1000_QL80_.jpg"
                   alt="ELENKER Steerable Knee Scooter Walker Shock Absorber Ultra Compact Portable"
                 />
                 <CardContent sx={{ p: 1, pt: 1.5 }}>
@@ -4791,7 +4791,7 @@ $157.50 /pc
                 <CardMedia
                   component="img"
                   height="180"
-                  image="https://esellerstorevip.biz/public/uploads/all/T9xkMUuT2twi1wcRy2N34mNt1s72tGB1F72zCXlk.png"
+                  image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvYZMEB7zN1-SjmkUFGyQoAYXii0x2F_8zbQ&s"
                   alt="Tuffcare Smooth Steerable Seated Scooter, Slow Propelled Mobility Knee Walker"
                 />
                 <CardContent sx={{ p: 1, pt: 1.5 }}>
@@ -4823,7 +4823,7 @@ $157.50 /pc
                 <CardMedia
                   component="img"
                   height="180"
-                  image="https://esellerstorevip.biz/public/uploads/all/7swN7nGPNRuzcdgmkpYlTrDpnEwisdtxV2c1crHO.jpg"
+                  image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ25lEf8HFDD7GCar2JqKEFMd_n31HZm2zwoA&s"
                   alt="Canon EOS R6 Full-Frame Mirrorless Camera with 4K Video, Full-Frame CMOS Senor, DIGIC X Image Processor, Dual UHS-II SD Memory Card Slots, and Up to 12 fps with Mechnical Shutter, Body Only, Black"
                 />
                 <CardContent sx={{ p: 1, pt: 1.5 }}>
@@ -4855,7 +4855,7 @@ $157.50 /pc
                 <CardMedia
                   component="img"
                   height="180"
-                  image="https://esellerstorevip.biz/public/uploads/all/KG7jP03dSRayvaCjCI0IkI1z71E2iRRB7JHMzxCD.jpg"
+                  image="https://m.media-amazon.com/images/I/71E+oh38ZqL.jpg"
                   alt="Marcy Dual Action Cross Training Recumbent Exercise Bike with Arm Exercisers, Gym Equipment for Work from Home Fitness, Black JX-7301"
                 />
                 <CardContent sx={{ p: 1, pt: 1.5 }}>
@@ -4874,7 +4874,7 @@ $384.99 /Pc
               </Card>
 
               {/* Product 7 */}
-              <Card sx={{ 
+              {/* <Card sx={{ 
                 minWidth: { xs: 'calc(100% / 2.2)', sm: 'calc(100% / 3.2)', md: 'calc(100% / 5.2)' },
                 maxWidth: { xs: 'calc(100% / 2.2)', sm: 'calc(100% / 3.2)', md: 'calc(100% / 5.2)' },
                 cursor: 'pointer',
@@ -4904,7 +4904,7 @@ $384.99 /Pc
                   Lowepro backpack Pro Trekker BP 350 AW II. No Fees! EU Seller!
                   </Typography>
                 </CardContent>
-              </Card>
+              </Card> */}
 
               {/* Product 8 */}
               {/* <Card sx={{ 
@@ -5158,7 +5158,7 @@ $384.99 /Pc
                 <CardMedia
                   component="img"
                   height="180"
-                  image="https://esellerstorevip.biz/public/uploads/all/REpTjrAh3WF6gyVYJT8VXcSh7t3hEvX84WnrYHJ2.png"
+                  image="https://m.media-amazon.com/images/I/51IFihcA3qL._SL1024_.jpg"
                   alt="Dunlop Protective Footwear, Chesapeake plain toe Black Amazon, 100% Waterproof PVC, Lightweight and Durable, 8677577.11, Size 11 US"
                 />
                 <CardContent sx={{ p: 1, pt: 1.5 }}>
@@ -5189,7 +5189,7 @@ $384.99 /Pc
                 <CardMedia
                   component="img"
                   height="180"
-                  image="https://esellerstorevip.biz/public/uploads/all/U5dydLvS5hZ5gCZN6iHmiQ4GRMuMZoSPfyHCMLrv.png"
+                  image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgKoktlyh4nVePjJYiV_Iwt06kb8yBpWHODQ&s"
                   alt="adidas Men's Ultraboost 1.0 Sneaker"
                 />
                 <CardContent sx={{ p: 1, pt: 1.5 }}>
@@ -5221,7 +5221,7 @@ $171.86 /Pc
                 <CardMedia
                   component="img"
                   height="180"
-                  image="https://esellerstorevip.biz/public/uploads/all/92Qfwo5POGIVmVSNQYcphvbbsXCNwdcVwMAdgWMu.png"
+                  image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJ_XOqW1NbAHkKt1AFDy7Hnun1NUjWgwKsGQ&s"
                   alt="Timberland Men's 6-Inch Premium Waterproof Boot"
                 />
                 <CardContent sx={{ p: 1, pt: 1.5 }}>
@@ -5253,7 +5253,7 @@ $171.86 /Pc
                 <CardMedia
                   component="img"
                   height="180"
-                  image="https://esellerstorevip.biz/public/uploads/all/Wpjn8B1n77cd1wMRsujmnpGUTwn5FmNs1QPI2Yll.png"
+                  image="https://resources.mandmdirect.com/Images/_default/r/o/3/ro30216_1_cloudzoom.jpg"
                   alt="Crocs Echo Clog Men desert grass"
                 />
                 <CardContent sx={{ p: 1, pt: 1.5 }}>
@@ -5287,7 +5287,7 @@ $37.85 /pc
                 <CardMedia
                   component="img"
                   height="180"
-                  image="https://esellerstorevip.biz/public/uploads/all/TpAgWIWtOrwzqaXGkiu8BHHKlZ5DBx2TPl1SXodf.png"
+                  image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsSJ9V4DIcNCQxiLtUSR5KKiFY8vGAOaon7A&s"
                   alt="MENS WOMENS CASUAL SWEAT SHORTS PLAIN GYM SHORTS FLEECE HOUSE GYM DAILY HAREM"
                 />
                 <CardContent sx={{ p: 1, pt: 1.5 }}>
@@ -5319,7 +5319,7 @@ $7.74 /PC
                 <CardMedia
                   component="img"
                   height="180"
-                  image="https://esellerstorevip.biz/public/uploads/all/k9omeEAOD4tbHeJkTsUvDamsXrCkumEcccy4VVii.png"
+                  image="https://img.drz.lazcdn.com/static/pk/p/36d71ce04cd88438f2158fe9248affe1.jpg_720x720q80.jpg"
                   alt=" Genuine Leather Luxury Belts"
                 />
                 <CardContent sx={{ p: 1, pt: 1.5 }}>
@@ -5337,7 +5337,7 @@ $7.74 /PC
               </Card>
 
               {/* Product 7 */}
-              <Card sx={{ 
+              {/* <Card sx={{ 
                 minWidth: { xs: 'calc(100% / 2.2)', sm: 'calc(100% / 3.2)', md: 'calc(100% / 5.2)' },
                 maxWidth: { xs: 'calc(100% / 2.2)', sm: 'calc(100% / 3.2)', md: 'calc(100% / 5.2)' },
                 cursor: 'pointer',
@@ -5367,7 +5367,7 @@ $7.74 /PC
                   Plus Size Men's "Simple" Print Sweatshirt & Sweatpants Set For Autumn/winter, Contrast Color 2Pcs Outfits For Sports/outdoor, Men's Clothing
                   </Typography>
                 </CardContent>
-              </Card>
+              </Card> */}
 
               {/* Product 8 */}
               {/* <Card sx={{ 
@@ -5621,7 +5621,7 @@ $7.74 /PC
                 <CardMedia
                   component="img"
                   height="180"
-                  image="https://esellerstorevip.biz/public/uploads/all/Oy4RclxTxvPA3PupQSxFReip50FWe9ekfffBX4mm.png"
+                  image="https://m.media-amazon.com/images/I/51FK6XjSHgL._SL500_.jpg"
                   alt="Baby Diaper Bag Backpack with Changing Station, Waterproof Changing Pad, USB Charging Port,Pacifier Case ,Pink Color"
                 />
                 <CardContent sx={{ p: 1, pt: 1.5 }}>
@@ -5652,7 +5652,7 @@ $7.74 /PC
                 <CardMedia
                   component="img"
                   height="180"
-                  image="https://esellerstorevip.biz/public/uploads/all/6QXOQ2UZlGWcqXmPLPPo1mBsovvSqv9m1dVOlpda.jpg"
+                  image="https://i5.walmartimages.com/seo/MAM-Easy-Active-11oz-2-Pack-Bottle-Pink_0853e52b-5912-4424-ab48-5b3d761dc674.a1c18942ee70ee14145d736cf3ed5238.jpeg"
                   alt="MAM Easy Active Baby Bottle 11oz, Easy Switch Between Breast and Bottle, Easy to Clean, 4+ Months & Plastic Trainer Cup (1 Count), 8 oz. Trainer Drinking Cup with Extra-Soft Spout"
                 />
                 <CardContent sx={{ p: 1, pt: 1.5 }}>
@@ -5684,7 +5684,7 @@ $7.74 /PC
                 <CardMedia
                   component="img"
                   height="180"
-                  image="https://esellerstorevip.biz/public/uploads/all/cIsGV4vl5mhgp9EDqXo0zno8SDsjy4EXWxpIDGA0.jpg"
+                  image="https://m.media-amazon.com/images/I/31hYmdK2v9L._SL500_.jpg"
                   alt="Aveeno Baby Daily Moisture Gentle Bath Wash & Shampoo with Natural Oat Extract, Hypoallergenic, Tear-Free & Paraben-Free Formula for Sensitive Hair & Skin, Lightly Scented, 33 fl. oz"
                 />
                 <CardContent sx={{ p: 1, pt: 1.5 }}>
@@ -5717,7 +5717,7 @@ $7.74 /PC
                 <CardMedia
                   component="img"
                   height="180"
-                  image="https://esellerstorevip.biz/public/uploads/all/XscwCkojrDJfzIYafWutWtKSMTzG6zV5wwSyL3VA.jpg"
+                  image="https://m.media-amazon.com/images/I/71oGZbrbypL._UF894,1000_QL80_.jpg"
                   alt="KRIDDO Kids Tricycles for 2-4 Year Olds, Toddler Trike Gift for 24 Months to 4 Years, White"
                 />
                 <CardContent sx={{ p: 1, pt: 1.5 }}>
@@ -5750,7 +5750,7 @@ $7.74 /PC
                 <CardMedia
                   component="img"
                   height="180"
-                  image="https://esellerstorevip.biz/public/uploads/all/y7Rt1PWWT33n6ZlpkWzk0x5movEbL5zIOcA8pwFV.jpg"
+                  image="https://m.media-amazon.com/images/I/71mbagdMEaL._AC_SL1500_.jpg"
                   alt="JOYSTAR Pluto Kids Bike 12 14 16 18 20 Inch Children's Bicycle for Boys Girls Age 3-12 Years, Kids' Bicycles, Multiple Colors"
                 />
                 <CardContent sx={{ p: 1, pt: 1.5 }}>
@@ -5781,7 +5781,7 @@ $7.74 /PC
                 <CardMedia
                   component="img"
                   height="180"
-                  image="https://esellerstorevip.biz/public/uploads/all/oTyrOQKPA1LUJQwsEDynjYqBqMusW3Ji8pnlqraO.jpg"
+                  image="https://m.media-amazon.com/images/I/61ZUHIA6MhL._SL1500_.jpg"
                   alt="MAM Bottle Nipples Mixed Flow Pack - Fast Flow Nipple Level 3 and Extra Fast Flow Nipple Level 4, for Newborns and Older, SkinSoft Silicone Nipples for Baby Bottles, Fits All MAM Bottles, 4 Pack"
                 />
                 <CardContent sx={{ p: 1, pt: 1.5 }}>
@@ -5799,7 +5799,7 @@ $7.74 /PC
               </Card>
 
               {/* Product 7 */}
-              <Card sx={{ 
+              {/* <Card sx={{ 
                 minWidth: { xs: 'calc(100% / 2.2)', sm: 'calc(100% / 3.2)', md: 'calc(100% / 5.2)' },
                 maxWidth: { xs: 'calc(100% / 2.2)', sm: 'calc(100% / 3.2)', md: 'calc(100% / 5.2)' },
                 cursor: 'pointer',
@@ -5828,7 +5828,7 @@ $7.74 /PC
                   <Typography variant="body2" sx={{ fontSize: '0.8rem', height: '40px', overflow: 'hidden' }}>
                   MomMed Electric Bottle Brush, Electric Baby Bottle Brush Set with Silicone Bottle/Pacifier/Straw Brush and Mixing Head, Waterproof Bottle Cleaner Brush with Drying Rack, 2 Modes & 360° Rotation                  </Typography>
                 </CardContent>
-              </Card>
+              </Card> */}
 
               {/* Product 8 */}
               {/* <Card sx={{ 
@@ -6083,7 +6083,7 @@ $7.74 /PC
                 <CardMedia
                   component="img"
                   height="180"
-                  image="https://esellerstorevip.biz/public/uploads/all/dQ8qdsPtUk1pGof9bUAvTlCNmXagxEMLPvn0mKni.jpg"
+                  image="https://m.media-amazon.com/images/I/7181WX9bUjS.jpg"
                   alt="ELECDER i37 Kids Headphones Children Girls Boys Teens Foldable Adjustable On Ear Headphones 3.5mm Jack Compatible Cellphones Computer MP3/4 Kindle School Tablet Orange/Black"
                 />
                 <CardContent sx={{ p: 1, pt: 1.5 }}>
@@ -6114,7 +6114,7 @@ $7.74 /PC
                 <CardMedia
                   component="img"
                   height="180"
-                  image="https://esellerstorevip.biz/public/uploads/all/KZDrBby0AstIGOHgG8tedBbYaZxyJCKi9i8XgrEC.jpg"
+                  image="https://m.media-amazon.com/images/I/511CmBo39fL._AC_UF894,1000_QL80_.jpg"
                   alt="Xiaomi Pad 5 WiFi Only 11 inches 120Hz 8720mAh Bluetooth 5.0 Four Speakers Dolby Atmos 13 Mp Camera + Fast Car 51W Charger Bundle (Cosmic Gray, 256GB + 6GB)"
                 />
                 <CardContent sx={{ p: 1, pt: 1.5 }}>
@@ -6145,7 +6145,7 @@ $7.74 /PC
                 <CardMedia
                   component="img"
                   height="180"
-                  image="https://esellerstorevip.biz/public/uploads/all/HoeIgHWmmCZB6F4OXcAliiCPLjmNAUW2I6wfiXKw.jpg"
+                  image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrXNaKwcIp7u0s8JzenhLpY5rfo8Lt_bJB3g&s"
                   alt="New Dell Pro Slim 15" 
                 />
                 <CardContent sx={{ p: 1, pt: 1.5 }}>
@@ -6177,7 +6177,7 @@ $7.74 /PC
                 <CardMedia
                   component="img"
                   height="180"
-                  image="https://esellerstorevip.biz/public/uploads/all/D46DsYQDwdm2IG23ih4ATrOZVsewYmrkkolsqDlf.jpg"
+                  image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_gwVTjkIh7RYIhzxtgU89RbdgrOqrwCxDQq2ZqJpl6dMerkhoHnj4bJPBnJ_xAvSpRB8&usqp=CAU"
                   alt="Wireless Speaker, 4 Sound Holes, 6D Surround Sound, Shocking Heavy Bass, RBG Color, Long Strip, Easy To Store And Save Space, Desktop Audio/computer Speaker/car Speaker/cycling Speaker/camping Speaker"
                 />
                 <CardContent sx={{ p: 1, pt: 1.5 }}>
@@ -6210,7 +6210,7 @@ $48.84 /pc
                 <CardMedia
                   component="img"
                   height="180"
-                  image="https://esellerstorevip.biz/public/uploads/all/j8ytgv7PKRcD5ZUDMveoimuXNdV5rTQUxgH5AUJ5.jpg"
+                  image="https://i5.walmartimages.com/seo/YinDiao-Caller-Mechanical-Keyboard-104-Keys-Green-Axis-Backlit-Office-E-sports-Game-Keyboard-Wired-USB-Desktop-Computer-Notebook-Universal_1eee649b-0d33-455f-bcb4-6e0996247089.49dd05e160f88206503bc66b1069d6ea.jpeg"
                   alt="YinDiao Caller Mechanical Keyboard 104 Keys Green Axis Backlit Office E-sports Game Keyboard Wired USB Desktop Computer Notebook Universal"
                 />
                 <CardContent sx={{ p: 1, pt: 1.5 }}>
@@ -6228,7 +6228,7 @@ $48.84 /pc
               </Card>
 
               {/* Product 6 */}
-              <Card sx={{ 
+              {/* <Card sx={{ 
                 minWidth: { xs: 'calc(100% / 2.2)', sm: 'calc(100% / 3.2)', md: 'calc(100% / 5.2)' },
                 maxWidth: { xs: 'calc(100% / 2.2)', sm: 'calc(100% / 3.2)', md: 'calc(100% / 5.2)' },
                 cursor: 'pointer',
@@ -6256,10 +6256,10 @@ $48.84 /pc
                   <Typography variant="body2" sx={{ fontSize: '0.8rem', height: '40px', overflow: 'hidden' }}>
                   RGB Desktop Speakers, 2.0CH Stereo PC Computer Gaming Speakers, 6W Multimedia Monitor Speakers, Volume Control, USB Powered / 3.5mm Cable                  </Typography>
                 </CardContent>
-              </Card>
+              </Card> */}
 
               {/* Product 7 */}
-              <Card sx={{ 
+              {/* <Card sx={{ 
                 minWidth: { xs: 'calc(100% / 2.2)', sm: 'calc(100% / 3.2)', md: 'calc(100% / 5.2)' },
                 maxWidth: { xs: 'calc(100% / 2.2)', sm: 'calc(100% / 3.2)', md: 'calc(100% / 5.2)' },
                 cursor: 'pointer',
@@ -6289,7 +6289,7 @@ $48.84 /pc
                   Upgrade Your Gaming Experience: G2000 Surround Stereo Gaming Headset with Noise Cancelling Mic, LED Lights & Soft Memory Earmuffs for PS5/PS4/Xbox One/Nintendo Switch/PC Mac
                   </Typography>
                 </CardContent>
-              </Card>
+              </Card> */}
 
               {/* Product 8 */}
               <Card sx={{ 
@@ -6521,7 +6521,7 @@ $48.84 /pc
             {/* Banner 1 - Valentine's Sale */}
             <Box 
               component="img"
-              src="https://esellerstorevip.biz/public/uploads/all/DPNtOhW1x6qVir8K8dnG0XwSt4V9pXRWzFIraObY.png"
+              src="https://t4.ftcdn.net/jpg/04/41/14/65/360_F_441146553_haUBrTpsJJ22bEbsMlgkNosGuWGwbV0t.jpg"
               alt="Valentine's Big Sale"
               sx={{ 
                 width: { xs: '100%', md: '33.33%' }, 
@@ -6537,7 +6537,7 @@ $48.84 /pc
             {/* Banner 2 - Flash Sale */}
             <Box 
               component="img"
-              src="https://esellerstorevip.biz/public/uploads/all/lgATlnRYQl61Jku4fQjcFHcINLlUOnQGuKZYRSUe.png"
+              src="https://mir-s3-cdn-cf.behance.net/project_modules/fs/3ce709113389695.60269c221352f.jpg"
               alt="Flash Sale"
               sx={{ 
                 width: { xs: '100%', md: '33.33%' }, 
@@ -6553,7 +6553,7 @@ $48.84 /pc
             {/* Banner 3 - 15% Off Everything */}
             <Box 
               component="img"
-              src="https://esellerstorevip.biz/public/uploads/all/djCpXyO2ITtfiN3lhEj4gB2YV5DqykDHH6AGu8Qm.png"
+              src="https://img.freepik.com/premium-vector/ramadan-kareem-sale-banner-template_234845-758.jpg"
               alt="15% Off Everything"
               sx={{ 
                 width: { xs: '100%', md: '33.33%' }, 
@@ -6776,7 +6776,7 @@ $48.84 /pc
                 }}>
                 <Box 
                   component="img"
-                  src="https://esellerstorevip.biz/public/uploads/all/9iSW4Ta8K8FMJV6panV26g7ueXryjhQYVlKDntkH.png"
+                  src="https://crystalpng.com/wp-content/uploads/2025/05/lenovo-logo.png"
                   alt="Lenovo"
                   sx={{ 
                     height: 50,
@@ -6848,7 +6848,7 @@ $48.84 /pc
                 }}>
                 <Box 
                   component="img"
-                  src="https://esellerstorevip.biz/public/uploads/all/hR2fnUl99blLe4umEbF87XBqSZJc8j3h3NR9bVux.webp"
+                  src="https://images.icon-icons.com/2845/PNG/512/fila_logo_icon_181400.png"
                   alt="Fila"
                   sx={{ 
                     height: 50,
@@ -6884,7 +6884,7 @@ $48.84 /pc
               }}>
                 <Box 
                   component="img"
-                  src="https://esellerstorevip.biz/public/uploads/all/zCGXjr9R06XtlaHMtQYNAk4xYW1SUGQWPb2QGjJs.png"
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/HP_LOGO.png/1008px-HP_LOGO.png"
                   alt="Hp"
                   sx={{ 
                     height: 50,
@@ -6920,7 +6920,7 @@ $48.84 /pc
               }}>
                 <Box 
                   component="img"
-                  src="https://esellerstorevip.biz/public/uploads/all/rcpEO7fXVzm4kaejPNwqw6fwyZSwJEx5zyx953QB.jpg"
+                  src="https://images.seeklogo.com/logo-png/61/1/puma-logo-png_seeklogo-613053.png"
                   alt="Puma"
                   sx={{ 
                     height: 50,
